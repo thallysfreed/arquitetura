@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T11:17:16.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 OPR/75.0.3969.149" etag="5_J_13qgX2-x-jhWXWvG" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T11:47:25.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 OPR/75.0.3969.149" etag="WLNnG_ZpfkxdoGtTkGJg" version="14.5.8" type="github">
   <diagram id="pOUwydJKZ514wDhYMpu4" name="Page-1">
     <mxGraphModel dx="1006" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="ovCtJIIMCYNfRMW0sjXj-2" value="Módulo Gestão&#xa;de Normas" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="480" y="80" width="105" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="ovCtJIIMCYNfRMW0sjXj-3" value="Database" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="190" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ovCtJIIMCYNfRMW0sjXj-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;dashed=1;" parent="1" source="ovCtJIIMCYNfRMW0sjXj-10" target="ovCtJIIMCYNfRMW0sjXj-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -37,9 +34,6 @@
         <mxCell id="ovCtJIIMCYNfRMW0sjXj-96" value="Módulo Gestão&#xa;de Normas" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="480" y="280" width="105" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="ovCtJIIMCYNfRMW0sjXj-98" value="Database" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="390" width="95" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="ovCtJIIMCYNfRMW0sjXj-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;dashed=1;" parent="1" source="ovCtJIIMCYNfRMW0sjXj-101" target="ovCtJIIMCYNfRMW0sjXj-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -66,9 +60,6 @@
         </mxCell>
         <mxCell id="ovCtJIIMCYNfRMW0sjXj-108" value="Módulo Gestão&#xa;de Normas" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="480" y="480" width="105" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="ovCtJIIMCYNfRMW0sjXj-110" value="Database" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="490" y="590" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ovCtJIIMCYNfRMW0sjXj-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;dashed=1;" parent="1" source="ovCtJIIMCYNfRMW0sjXj-113" target="ovCtJIIMCYNfRMW0sjXj-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -111,6 +102,17 @@
         </mxCell>
         <mxCell id="kdXWGwtrBdY0a-65QAZD-12" value="Carrega aplicação Angular" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="277.5" y="590" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kdXWGwtrBdY0a-65QAZD-16" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;endSize=6;strokeWidth=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="kdXWGwtrBdY0a-65QAZD-17" parent="1" source="ovCtJIIMCYNfRMW0sjXj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdXWGwtrBdY0a-65QAZD-17" value="" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;points=[];aspect=fixed;resizable=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="160" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="kdXWGwtrBdY0a-65QAZD-18" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
