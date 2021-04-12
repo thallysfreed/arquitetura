@@ -1,0 +1,43 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="normaTecnica">
+            <h2><span>Norma Tecnica</span> {{normaTecnica.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span>Nome</span></dt>
+                <dd>
+                    <span>{{normaTecnica.nome}}</span>
+                </dd>
+                <dt><span>Descricao</span></dt>
+                <dd>
+                    <span>{{normaTecnica.descricao}}</span>
+                </dd>
+                <dt><span>Industrial</span></dt>
+                <dd>
+                    <span>{{normaTecnica.industrial}}</span>
+                </dd>
+                <dt><span>Setor</span></dt>
+                <dd>
+                    <span>{{normaTecnica.setor}}</span>
+                </dd>
+                <dt><span>Data Criacao</span></dt>
+                <dd>
+                    <span>{{normaTecnica.dataCriacao}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/norma-tecnica', normaTecnica.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

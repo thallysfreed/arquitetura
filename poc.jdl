@@ -1,0 +1,18 @@
+
+entity Compiliance {
+	nome String,
+    descricao String,
+    setor String,
+    industrial Boolean,
+    dataCriacao LocalDate
+}
+
+entity NormaTecnica{
+	nome String,
+    descricao String,
+    industrial Boolean,
+    setor String,
+    dataCriacao LocalDate
+}
+
+

@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.poc"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "poc",
+    "packageName": "com.poc",
+    "packageFolder": "com/poc",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzU4OTM4YWQyN2NmZDJlZWNlZjk1Nzk3NjBjZTdlNzBlZWMyN2ZjZWQyNjkwNmExZDIxZWQ0ZjdmZTk0NDdjNmIwOGEyODI0NGVmODIxZjQxODc4ZjhkNzg3ZTA1OWNiNzdiYjM3YWFhNTUwNWRjOGY0NTdjNzU5OTU3ZjFlODI=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": [
+      "en",
+      "es",
+      "pt-br"
+    ]
+  }
+}
